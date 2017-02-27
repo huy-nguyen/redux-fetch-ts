@@ -2,10 +2,10 @@
   "name": "redux-fetch-ts",
   "version": "0.0.1",
   "description": "A Redux middleware to manage fetching of data",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
-    "build": "rimraf dist && tsc"
+    "build": "rimraf lib && tsc"
   },
   "author": "Huy Nguyen <huy@huy-nguyen.com> (http://www.huy-nguyen.com/)",
   "license": "MIT",
