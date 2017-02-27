@@ -1,6 +1,6 @@
 {
   "name": "redux-fetch-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Redux middleware to manage fetching of data",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -16,5 +16,8 @@
   },
   "dependencies": {
     "redux": "3.6.0"
-  }
+  },
+  "files": [
+    "lib"
+  ]
 }
