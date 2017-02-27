@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "noEmitHelpers": false,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "target": "es6",
+    "removeComments": true,
+    "preserveConstEnums": false,
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "importHelpers": true,
+    // Without this setting, TS will default to 'classic' resolution mode, leading
+    // it to not find `tslib` module necessary for `importHelpers` option to work.
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "declaration": true,
+    "rootDir": "./src"
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
